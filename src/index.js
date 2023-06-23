@@ -1,6 +1,6 @@
-import '../css/style.css';
+import './css/style.css';
 import Notiflix from 'notiflix';
-import { fetchBreeds, fetchBreedById } from '../js/cat-api';
+import { fetchBreeds, fetchBreedById } from './js/cat-api';
 
 const selectCat = document.querySelector('.breed-select');
 const loaderEl = document.querySelector('.loader');
